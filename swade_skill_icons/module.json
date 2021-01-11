@@ -9,7 +9,7 @@
   "systems": ["swade"],
   "esmodules": ["./scripts/skillicons.js"],
   "styles": ["./css/skillimages.css"],
-  "url": "temp",
-  "manifest": "temp",
-  "download": "temp"
+  "url": "https://github.com/javierriveracastro/swade-skill-icons",
+  "manifest": "https://raw.githubusercontent.com/javierriveracastro/swade-skill-icons/master/swade_skill_icons/module.json",
+  "download": "https://github.com/javierriveracastro/swade-skill-icons/raw/master/swade_skill_icons.zip"
 }
