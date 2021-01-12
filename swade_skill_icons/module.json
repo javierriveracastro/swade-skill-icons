@@ -4,7 +4,7 @@
   "description": "A small module to add icons to skills in SWADE sheets",
   "minimunCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
-  "version": "1.0",
+  "version": "1.0.1",
   "author": "Javier Rivera",
   "systems": ["swade"],
   "esmodules": ["./scripts/skillicons.js"],
