@@ -20,6 +20,17 @@ function add_icons (actor, html) {
 		let item_id = String(skill_wrapper.attr('data-item-id'));
 		let skill = actor.getOwnedItem(item_id);
 		skill_wrapper.prepend(`<img alt="roll" class="swade-skill-image" src="${skill.img}" data-item-id="${item_id}">`);
+		// Edit text of NPC skills
+		skill_wrapper.find('a.contextmenu-edit').each((_, element) => {
+			let text = element.innerHTML.trim();
+			if (!text.includes('&nbsp;')) {
+				text = '&nbsp;' + text;
+			}
+			if (text.slice(-1) === ',') {
+				text = text.slice(0, text.length - 1);
+			}
+			element.innerHTML = text;
+		});
 	}
 }
 
